@@ -1,9 +1,9 @@
 public class Payment {
-    protected String paymentId;
-    protected String booking;
-    protected double amountPaid;
-    protected String paymentDate;
-    protected String transactionStatus; // Transaction status (Success/Failed)
+    private String paymentId;
+    private String booking;
+    private double amountPaid;
+    private String paymentDate;
+    private String transactionStatus; // Transaction status (Success/Failed)
 
     // Static Fields
     private static int paymentCount = 0;
